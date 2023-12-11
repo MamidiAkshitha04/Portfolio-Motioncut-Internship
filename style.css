@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    color: silver;
+    justify-content: space-between;
+    
+}
+.navbar h1{
+    font-size: 55px;
+    padding: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin: 25px;
+    
+}
+.navbar ul li{
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: gold;
+    padding: 25px;
+    transition: all 0.3s ease-in;
+}
+.navbar ul li a:hover{
+    color: blue;
+}
+div ul{
+    display: flex;
+    list-style-type: none;
+}
+div ul p{
+    /*border:30px solid black;*/
+    padding: 30px;
+    margin: 30px;
+}
+.cp{
+    font-size: 2rem;
+    color:white;
+}
+#name{
+    color: palevioletred;
+}
+span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.cv{
+    background-color: gold;
+    margin: 40px 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+.abt{
+    display:flex;
+    color:white;
+    font-size: 25px;
+    list-style-type: none;
+    position: sticky;
+    flex-wrap: nowrap;
+    padding-left: 35px;
+}
+img{
+    height: 500px;
+}
+.contact{
+    background-color: pink;
+    text-align: center;
+}
+#ch1{
+    text-align: center;
+    padding: 25px 25px;
+    font-size: 55px;
+}
+input{
+    padding: 15px 15px;
+    border-radius: 6px;
+    border-color: black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    width: 30%;
+}
+textarea{
+    padding: 15px 15px;
+    border-radius: 6px;
+    border-color: black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+button{
+    align-self: center;
+    background-color: blue;
+    font-size: 20px;
+    padding: 25px 25px;
+    border-radius: 6px;
+    margin: 25px 25px;
+}
+#bd{
+    text-align: bottom;
+    margin: 25px 25px;
+    color:purple;
+    font-size: 22px;
+    text-decoration: none;
+}
